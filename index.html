@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward's Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/84aa0d2c9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navigation bar-->
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="Photos/logo.png" class= "logo" alt="">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home </a>   </li>
+                    <li> <a href="#about">About </a>   </li>
+                    <li> <a href="#Portfolio">Projects</a>   </li>
+                    <li> <a href="#Education">Schooling </a>   </li>
+                    <li> <a href="#contact">Contact </a>   </li>
+                
+                </ul>
+         
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Student (Senior)</p>
+                <h1>Hi, i'm <span>Edward</span><br>from Weber State University</h1>
+            </div>
+        </div>
+    </div>
+    <!--Navigation bar end-->
+
+     <!--about-->
+        <div id="about">
+            <div class="conatiner">
+                <!--creating the row that will house an image and some text-->
+                <div class="row">
+
+                    <!--column 1 will hold the image-->
+                    <div class="about-col-1">
+                        <a target="_blank" href="https://github.com/Edward2580/CS-2420/blob/main/Linked%20List%20based%20Hash%20Table.cpp"><img src="Photos/linkedListHashTable.png" alt="linkedListHashTable"></a> 
+                    </div>
+
+                    <!--column 2 will hold all of the information-->
+                    <div class="about-col-2"> 
+                        <h1 class="sub-title">About me</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida rutrum quisque non tellus. In nulla posuere sollicitudin aliquam ultrices sagittis orci.
+                        Feugiat in ante metus dictum at tempor. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Auctor augue mauris augue neque gravida in fermentum et. Volutpat est velit egestas dui. Facilisis gravida neque convallis a cras semper auctor neque vitae. Phasellus vestibulum lorem sed risus. 
+                        A cras semper auctor neque vitae tempus quam pellentesque.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('work')">Work History</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Designing web/app interfaces</li>
+                                <li><span>Game Development</span><br>Designing video games</li>
+                                <li><span>DataBase Development</span><br>Designing Databases</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="work">
+                            <ul>
+                                <li><span>Juvenile justice counselor/CS teacher</span><br>I work in a secure facility where I started teaching some of the youth Computer Science. I've taught so far Introudction to OOB, introduction to HTML/CSS, and Algebra</li>
+                                <li><span>Microsoft</span><br>It department that assisted small to medium buisnesses 
+                                                            in starting their company through Microsoft </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-current</span><br> Bachelor's in computer science at Weber State University</li>
+                                <li><span>2016-2019</span><br>Assosicate's in criminal justice at Morton College</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--about end-->
+
+        <!-- portfolio start -->
+        <div id="Portfolio">
+            <div class ="container">
+                <h1 class="sub-title portfolioheader">My Projects</h1>
+                <div class="portfolio-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Video Games</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-file-code"></i>
+                        <h2>Object-oriented programming</h2>
+                        <p>The learn more below will take you to my github where you can view my OOB projects, they will be in CS 2420 and CS 1410</p>
+                        <a href="https://github.com/Edward2580">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Database programming</h2>
+                        <p>The learn more below will take you to my github where you can see all of my SQL and database creation projects that i've worked on</p>
+                        <a href="https://github.com/Edward2580/DataBasePrograms">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio end -->
+
+        <!-- schooling start -->
+        <div id="Education">
+            <div class="container">
+                <h1 class="sub-title">Education</h1>
+                <div class="education-list">
+                    <div class="schools">
+                        <img src="Photos/Big W Photos 2023-75.jpg" alt="" >
+                        <div class="layout">
+                            <h3>Weber State University</h3>
+                            <p>Recieved my Associates degree in 2023</p>
+                            <p>Here i have completed multiple programs in Python,C++,SQL,BASH,Powershell,HTML/CSS</p>
+                            <p>Have implimented the following in my python and c++ programs. lists, Dictonaries, Functions, Classes, Linked-lists, Iterators, Multi-threading, Tree-traversal, Sorting alogorithms, and Loops</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="schools">
+                        <img src="Photos/pexels-wendel-moretti-1850021.jpg" alt="" >
+                        <div class="layout">
+                            <h3>Morton College</h3>
+                            <p>Recieved my Associates degree in criminal justice in 2019</p>
+                            <p>Here I gained a lot of Leadership,Teamwork, Problem solving, and Logical thinking skills</p>
+                            <p>Completed multiple case studies on serial killers/convicts to gain a futher understanding of how to analyze individuals</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- schooling end -->
+
+        <!-- contact start-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>edwardramirez199@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i>708-829-9632</p>
+                        <a href="Photos/Unofficial-Transcript.pdf" download class="btn btn2">Download Transcipts</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name='submit-to-google-sheet'>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea> 
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id = "msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Edward</p>
+            </div>
+        </div>
+        <!-- contact end -->
+
+    <!--Script to make the contents in the tabs to disappear and reapper on click-->
+    <script>
+
+        //getting the class name tab links into a variable
+        var tablinks = document.getElementsByClassName("tab-links")
+
+        //getting the class name tab contents into a variable
+        var contents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            // for every tablink in tab-links
+            for(tablink of tablinks){
+
+                //remove the class active-link identifier on whichever link has it
+                tablink.classList.remove("active-link");
+
+            }
+            //for every tabcontent in tab-contents
+            for(tabcontent of contents){
+
+                //remove the class active-tab identifier on whichever tab has it
+                tabcontent.classList.remove("active-tab");
+
+            }
+
+            //adding the active-link class to whichever one is clicked
+            event.currentTarget.classList.add("active-link");
+
+            //adding the active-tab class to whichever one is clicked
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz0vYPSsEU09Rw5aAj3bUDJ3JI-A9iWL6hRUOTh07fKdMDJhx0hSpMp_MstKor4ENTNSA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
